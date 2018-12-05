@@ -9,16 +9,14 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
 </head>
 <body>
-    <header class="bg-dark header-style colapse">
+    <header class="bg-dark header-style collapse" id="header">
         <div class="container">
             <div class="row">
                 <div class="col-8">
                     <h4>About</h4>
                     <p class="text-muted">Add some information about the album below, the author, or any other background 
                         context. Make it a few sentences long so folks can pick up some informative tidbits. 
-                        Then, link them off to some social networking sites or contact information.</p>
-                        <h4>Album</h4>
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOaSURBVGhD7ZhbqFVFGIBPKop5ScVSn9QsexB9EBEEAwu1N8OwRAMJFUkF7yg+iIIGISISEiJeKEUjtDR6UQvCChQMzHxQexESNPGGaV4q9ftWZ07bfdY5Z6215+QS9gcfnpm9Zvb87lkz809DnTp1/jc6YO8cPoulwgFtxT/xYU7P4OtYCnagg/oHr+XwFtruNr6CT5TX8AH+gcOtyIFTcScazHf4DEanC6bN60qfx7PoQJZgEZ7DC2gf72Pa91TbJv6PzMLTaMdZ/Qk7YlHexLR+W/IOfoHDsBkGEX5mvY9p87raX3EE1spHeBXTvqPS6xjG6DvWbKGYgX54A6dhZywr/fETdLyXsAc2cQz94L2k1BzfmU7//lkKXCh+RMc804qA887KnknpP/rgfvwL3SecAmX5tZaiY96UlBqxQqvZi9Y7H31v/HsVZsV3rx92S0pxmY6O5+Ok1EhaIE4lfwUDcDBj0WdOYmuMxo14DkPw6l7zDS7AvlgrmQORK+iG5xK5GH3mB0zjZTyAoS91SrpPuCJV1rv6rMRa3rtcgazG8FnwbaxmIoal0X/X4kis3K2dXm/hQQx9fYu+h0XIFYgDmYff4yGcjNVMwL/R9i6LvbAtxuB5tM3PWOQknCuQtngJ3Xts66+XhxfwFNp2nxU5iRrIl2i7T5NSfgai76F9vGFFDqIFMgpt49Eh02GuBeai/Xhmy0O0QDagbT5ISsVx5bqI9jXUioxEC8TszjauTrVihmlfi5JSNqIFcg9drTz31Moc9Ps3J6VsRAnEpMrnnRIxCDmJeUZWogTSFX3epTcGU9H+diWlbESbWmH/qD4xF2E52tf6pJSNaIEcRttMSUq1cQTz9hUtkPlom6+SUnEGoafku9jdioxEC8RN0M3Qdq9aUZA9aB9bklJ2ogUiy9B2v6E5S168tbG9uYq5eB6iBuI1UHhXfsEXMSuz0b3IfOcdK3ISNRDxku0E2t4Eynentbx+MIYU2iBWYBGiByLmE2Fw+jtuQw+Ek/BddMCmumaNPnMTi/wSgXYJJDAej2PoL01vbPzyAVgL7RpIYAguRK+PTJrMVz5EU91YNyqtBlKZY5edcDv6WCCX0UpT16cFjzOOeV1SamQ3WunmFONY3t54GgibsfdtTXgn5SriB0fRJdRrn7LpKXkNhnsy7wyaMQ7DFHsa/BpbPHl7J+Xavx0/L6Gfodex3qXVqVOnTp0nTUPDIwjrvoaaGsiPAAAAAElFTkSuQmCC">
+                        Then, link them off to some social networking sites or contact information.</p>    
                 </div>
                 <div class="offset-1 col-3">
                     <h4>Contact</h4>
@@ -31,6 +29,17 @@
             </div>
         </div>
     </header>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img class="img-album" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOaSURBVGhD7ZhbqFVFGIBPKop5ScVSn9QsexB9EBEEAwu1N8OwRAMJFUkF7yg+iIIGISISEiJeKEUjtDR6UQvCChQMzHxQexESNPGGaV4q9ftWZ07bfdY5Z6215+QS9gcfnpm9Zvb87lkz809DnTp1/jc6YO8cPoulwgFtxT/xYU7P4OtYCnagg/oHr+XwFtruNr6CT5TX8AH+gcOtyIFTcScazHf4DEanC6bN60qfx7PoQJZgEZ7DC2gf72Pa91TbJv6PzMLTaMdZ/Qk7YlHexLR+W/IOfoHDsBkGEX5mvY9p87raX3EE1spHeBXTvqPS6xjG6DvWbKGYgX54A6dhZywr/fETdLyXsAc2cQz94L2k1BzfmU7//lkKXCh+RMc804qA887KnknpP/rgfvwL3SecAmX5tZaiY96UlBqxQqvZi9Y7H31v/HsVZsV3rx92S0pxmY6O5+Ok1EhaIE4lfwUDcDBj0WdOYmuMxo14DkPw6l7zDS7AvlgrmQORK+iG5xK5GH3mB0zjZTyAoS91SrpPuCJV1rv6rMRa3rtcgazG8FnwbaxmIoal0X/X4kis3K2dXm/hQQx9fYu+h0XIFYgDmYff4yGcjNVMwL/R9i6LvbAtxuB5tM3PWOQknCuQtngJ3Xts66+XhxfwFNp2nxU5iRrIl2i7T5NSfgai76F9vGFFDqIFMgpt49Eh02GuBeai/Xhmy0O0QDagbT5ISsVx5bqI9jXUioxEC8TszjauTrVihmlfi5JSNqIFcg9drTz31Moc9Ps3J6VsRAnEpMrnnRIxCDmJeUZWogTSFX3epTcGU9H+diWlbESbWmH/qD4xF2E52tf6pJSNaIEcRttMSUq1cQTz9hUtkPlom6+SUnEGoafku9jdioxEC8RN0M3Qdq9aUZA9aB9bklJ2ogUiy9B2v6E5S168tbG9uYq5eB6iBuI1UHhXfsEXMSuz0b3IfOcdK3ISNRDxku0E2t4Eynentbx+MIYU2iBWYBGiByLmE2Fw+jtuQw+Ek/BddMCmumaNPnMTi/wSgXYJJDAej2PoL01vbPzyAVgL7RpIYAguRK+PTJrMVz5EU91YNyqtBlKZY5edcDv6WCCX0UpT16cFjzOOeV1SamQ3WunmFONY3t54GgibsfdtTXgn5SriB0fRJdRrn7LpKXkNhnsy7wyaMQ7DFHsa/BpbPHl7J+Xavx0/L6Gfodex3qXVqVOnTp0nTUPDIwjrvoaaGsiPAAAAAElFTkSuQmCC">
+                <span class="album">Album</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
     <section class="sub-title">
         <h2>Album example</h2>
         <p class="text-muted">Something short and leading about the collection below—its contents,<br> the creator, etc. 
@@ -42,7 +51,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-4">
-                    <div class="card">
+                    <div class="card first-row">
                         <img class="card-img-top" src="octocat_darkwood.jpg" alt="Card image octocat">
                         <div class="card-body">
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -75,7 +84,7 @@
         </div>
         <div class="container">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-4 second-row">
                         <div class="card">
                             <img class="card-img-top" src="octocat_darkwood.jpg" alt="Card image octocat">
                             <div class="card-body">
@@ -149,5 +158,8 @@
                                     New to Bootstrap? <a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/">Visit</a> the homepage or read our <a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/">getting started guide</a>.</p>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body> 
 </html>
